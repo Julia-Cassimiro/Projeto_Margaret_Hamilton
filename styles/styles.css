@@ -1,0 +1,136 @@
+body,
+h1,
+h2,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f7fc;
+    color: #000000;
+}
+
+header {
+    background-color: #3e5a4d;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+main {
+    padding: 20px;
+    background-color: #f8f7fc;
+}
+
+section {
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px #0000001a;
+}
+
+
+.banner {
+    background-image: url("../img/IlustraçãoDixieLeota.png");
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#ImagensMargaret {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80%;
+    margin-bottom: 30px;
+    max-width: 100%;
+}
+
+#Margaret {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-bottom: 30px;
+    max-width: 100%;
+}
+
+#MargaretPremiacao {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-bottom: 30px;
+    max-width: 100%;
+}
+
+#Icone {
+    width: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    animation-name: pulse;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+#icone2 {
+    width: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    animation-name: pulse;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+footer {
+    background-color: #19573b;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
